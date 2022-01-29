@@ -32,7 +32,7 @@ disable404 = true
         name = "Adam Brown"
         tagline = "Web Developer"
         avatar = "profile.png"
-        qr_code = "qr_code.png"
+        # qr_code = "qr_code.png"
 
     # Contact section
     [params.contact]

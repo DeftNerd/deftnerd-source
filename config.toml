@@ -10,6 +10,31 @@ disableRSS = false
 disableSitemap = false
 disable404 = true
 
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+
+
 [params]
 
 # Meta
@@ -121,14 +146,39 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "A leader with a strong background in building remote teams, coaching, guiding performance, and monitoring development. Excels at independently designing and building amazing products and services. Strong believer in innovation and constant learning. <br /><br />Can develop the full-stack, from programming, database design and maintenance, to server management and operations. Over 20 years experience in the IT and Cloud platforms/DevOps. Over 10 years experience in professional software development and engineering. <br /><br /><ul><li>Multi-Site IT management experience</li><li>DevOps (AWS, Docker, VPS platforms)</li><li>Large Scale Cloud Platform deployments and management</li><li>Database Management – MSSQL, PostgreSQL, MySQL, Redis</li><li>Project Management</li><li>Vendor management/contract negotiations</li></ul><br /><br />FinTech experience including Bitcoin (BTC), Ethereum (ETH), and other cryptocurrencies. Experience with Blockchain and Bitcoin 2.0 development.<br /><br />Specialties include: Strategic Planning & Decision Making, Executive Leadership & Supervision, Web DevOps, programming, Technical Infrastructure, Big Data, Customer Service Delivery, AWS platform, VoIP, Disaster Recovery, Emergency Response Plans, Policy Development, Project Management Systems, Development of Business Plans."
+        summary = """
+          A leader with a strong background in building remote teams, coaching, guiding performance, and monitoring development. Excels at independently designing and building amazing products and services. Strong believer in innovation and constant learning.
+
+          Can develop the full-stack, from programming, database design and maintenance, to server management and operations. Over 20 years experience in the IT and Cloud platforms/DevOps. Over 10 years experience in professional software development and engineering. 
+          
+          - Multi-Site IT management experience
+          - DevOps (AWS, Docker, VPS platforms)
+          - Large Scale Cloud Platform deployments and management
+          - Database Management (MSSQL, PostgreSQL, MySQL, Redis)
+          - Project Management
+          - Vendor management & contract negotiations
+          
+          FinTech experience including Bitcoin (BTC), Ethereum (ETH), and other cryptocurrencies. Experience with Blockchain and Bitcoin 2.0 development.
+          
+          Specialties include: Strategic Planning & Decision Making, Executive Leadership & Supervision, Web DevOps, programming, Technical Infrastructure, Big Data, Customer Service Delivery, AWS platform, VoIP, Disaster Recovery, Emergency Response Plans, Policy Development, Project Management Systems, Development of Business Plans.
+          """
 
     # Reference section
     [params.reference]
         enable = true
         icon = "fa-pencil"
         title = "Reference"
-        summary = "**Reference for Adam Brown** <br><br>To whom it may concern: <br><br>This is a letter of recommendation for Adam Brown. Adam worked for Payment Approved for the inception of a new payment processing platform. Adam was instrumental in helping with a full discovery process through development sprints. During this time Adam grew as a professional and his creativity solved may questions. If any parties have any questions in regards Adams past work experience at Payment Approved, please contact me directly via email.<br><br>Thank you,<br>Jason Montoya, CEO"
+        summary = """
+        **Reference for Adam Brown**
+        
+        To whom it may concern: 
+        
+        This is a letter of recommendation for Adam Brown. Adam worked for Payment Approved for the inception of a new payment processing platform. Adam was instrumental in helping with a full discovery process through development sprints. During this time Adam grew as a professional and his creativity solved may questions. If any parties have any questions in regards Adams past work experience at Payment Approved, please contact me directly via email.
+        
+        Thank you,
+        
+        Jason Montoya, CEO
+        """
 
 
     # Experiences section

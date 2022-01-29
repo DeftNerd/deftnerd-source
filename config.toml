@@ -41,75 +41,54 @@ disable404 = true
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//deftnerd.github.io"
-        title = "deftnerd.github.io"
+        url = "//deftnerd.com"
+        title = "deftnerd.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "https://www.linkedin.com/in/deftnerd/"
+        title = "deftnerd"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/deftnerd"
-        title = "github.com/deftnerd"
+        url = "https://github.com/deftnerd"
+        title = "deftnerd"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        title = "607-793-4147"
+        url = "tel:+16077934147"
+        title = "(607) 793-4147"
 
     # Education section
     [params.education]
         enable = true
-        title = "Education"
+        title = "Certs & Awards"
 
         [[params.education.list]]
-        details = "The Complete Elixir and Phoenix Bootcamp"
-        college = "Udemy"
-        dates = "Aug 2017 - Oct 2017"
+        details = "Certified Bitcoin Professional"
+        college = "CryptoCurrency Certification Consortium"
+        dates = "Sep 2014 - Sep 2016"
 
         [[params.education.list]]
-        details = "CentOS and Red Hat Linux to Certified System Administrator"
-        college = "Udemy"
-        dates = "Sep 2016 - Feb 2017"
-
-        [[params.education.list]]
-        degree = "BSc Physics 2.1"
-        details = "Problem solving, teamwork, research projects, computer programming: C++, Python and Java, theory and calculations. Member of the rowing team."
-        college = "RHUL, University of London"
-        dates = "Oct 2003 - July 2007"
-
-        [[params.education.list]]
-        details = "A Level Physics: A, Mathematics: B, Computing: B. Won bridge building project; application of Physics to solve a problem, wrote a C++ App to assist the project."
-        college = "Strodes College, Egham"
-        dates = "Sep 2001 - July 2003"
-
-        [[params.education.list]]
-        details = "GCSE Double Science: A*, History: A*, Mathematics: A, Religious Ed: A, Electronics: A, French: A, English Language: A, Geography: B, English Literature: B."
-        college = "Thamesmead School, Shepperton"
-        dates = "Sep 1997 - July 2001"
+        details = "Winner of $250,000 prize"
+        college = "Texas Bitcoin Conference"
+        dates = "2014"
 
     # Languages section
     [params.language]
-        enable = true
+        enable = false
         title = "Languages"
 
         [[params.language.list]]
         language = "English"
         level = "Native"
 
-        [[params.language.list]]
-        language = "French"
-        level = "Basic"
-
-        [[params.language.list]]
-        language = "Mandarin"
-        level = "Basic"
-
-        [[params.language.list]]
-        language = "Arabic"
-        level = "Literary"
-
     # Interests section
     [params.interests]
-        enable = true
+        enable = false
         title = "Interests"
 
         [[params.interests.list]]
@@ -142,14 +121,14 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Andrew James Potter** I majored in Physics. I have worked as a developer and in particular as a Ruby-on-Rails developer. My main interest is education and I like to teach others the knowledge I have learnt myself. I have also tutored Mathematics privately. I also excel with technology. When I was 14 I emailed Nintendo asking what I needed to learn to make games. So from an early age I developed a strong interest in technology and began by learning the C++ programming language at approximately the age of 14 and learning GNU/Linux from the age of 15. I love pentesting with Kali Linux and Metasploit (ethical hacking). I am also fascinated by digital art creation in 3d and 2d and the application of Physics and Mathematics to create interactive art like videogames and simulations. I eventually developed a love for the Ruby programming language and in particular Ruby-on-Rails. I have developed a 3d Map App using Unity3d for iOS/Android/OSX/Windows 10. I discovered three confirmed bugs in Unity3d, which I was rewarded for by Unity. I have coached minority groups how to code. I am working on an off-grid P2P project which has a focus on education called QALB."
+        summary = "A leader with a strong background in building remote teams, coaching, guiding performance, and monitoring development. Excels at independently designing and building amazing products and services. Strong believer in innovation and constant learning. <br /><br />Can develop the full-stack, from programming, database design and maintenance, to server management and operations. Over 20 years experience in the IT and Cloud platforms/DevOps. Over 10 years experience in professional software development and engineering. <br /><br /><ul><li>Multi-Site IT management experience</li><li>DevOps (AWS, Docker, VPS platforms)</li><li>Large Scale Cloud Platform deployments and management</li><li>Database Management – MSSQL, PostgreSQL, MySQL, Redis</li><li>Project Management</li><li>Vendor management/contract negotiations</li></ul><br /><br />FinTech experience including Bitcoin (BTC), Ethereum (ETH), and other cryptocurrencies. Experience with Blockchain and Bitcoin 2.0 development.<br /><br />Specialties include: Strategic Planning & Decision Making, Executive Leadership & Supervision, Web DevOps, programming, Technical Infrastructure, Big Data, Customer Service Delivery, AWS platform, VoIP, Disaster Recovery, Emergency Response Plans, Policy Development, Project Management Systems, Development of Business Plans."
 
     # Reference section
     [params.reference]
         enable = true
         icon = "fa-pencil"
         title = "Reference"
-        summary = "**Reference for Andrew Potter** <br><br>To whom it may concern. Reference for Andrew Potter.<br><br>Andrew has worked with us for four years now, joining us part time initially and working up to a 0.8 contract latterly. Andrew is a conscientious, willing, polite and cooperative member of our IT support team. He is keen to learn new skills as well as practising his well developed programming skills. He has been responsible for IT support in our fully wireless BYOD environment and has shown himself to be responsive, adaptable and effective in resolving a whole range of issues, such as administering the VLE and VLE outreach, fixing students laptops and problem solving computer and projector issues around the site. He has trained teachers in the use of the VLE. He communicates well with a variety of audiences and has shown himself to be persistent and determined in addressing the concerns of our users. Andrew has used his programming skills to good effect and has designed and built a Ruby-on-Rails (version 5) WebGL 3d Map App of the school which is published on GitHub https://github.com/YateleySchool/YSMap3d-Rails. He also designed and built a Ruby-on-Rails (version 4) Work Experience database system, which helped our work experience manager immensely. I can recommend Andrew to you without reservation.<br><br>Kind regards,<br>Mark Jackman<br>Headteacher<br>Yateley School"
+        summary = "**Reference for Andrew Potter** <br><br>To whom it may concern: <br><br>This is a letter of recommendation for Adam Brown. Adam worked for Payment Approved for the inception of a new payment processing platform. Adam was instrumental in helping with a full discovery process through development sprints. During this time Adam grew as a professional and his creativity solved may questions. If any parties have any questions in regards Adams past work experience at Payment Approved, please contact me directly via email.<br><br>Thank you,<br>Jason Montoya, CEO"
 
 
     # Experiences section
@@ -159,45 +138,16 @@ disable404 = true
         title = "Work"
 
         [[params.jobs.list]]
-        position = "Web Developer"
-        dates = "Oct 2017 - Mar 2020"
-        company = "United Nations Environment World Conservation Monitoring Centre, Cambridge"
-        details = "**Web Developer, Biodiversity Informatics**  Remote work; with visits to the office fortnightly. I proposed that we switch to Docker for local development. Some exposure to TDD, Agile development. Work on existing projects and also developing new solutions with the Informatics programme. This involves problem solving as well as thinking creatively to develop the end product. This includes work on Protected Planet - an interface for The World Database on Protected Areas (WDPA) - the most comprehensive global database on terrestrial and marine protected areas. Using React.js, Sidekiq, PostgreSQL, GDAL, PostGIS, Mapbox, Redis, Elasticsearch, Amazon AWS S3, Leaflet, jQuery, Atom, vim, tmux, iTerm, Google Analytics, GitHub, Slack, Skype, Trello, Office 365, Teamweek, Toggl, Dropbox. Development using GitHub, making Git pull requests, Ruby-on-Rails; adding fields to existing tables using migrations, use of Action Mailer to send email notifications, detecting modification to individual attributes to trigger email notifications, using byebug, coding rake tasks to import CSV seed data into a database, handling whitespace in CSV files, optimisation of code based on feedback, extracting the required information from each object and then returning an array which is sent to the frontend, writing tests, regression testing, fixing code which has broken, comparing JSON output to find regressions, using Travis CI, using Grape, Sinatra, RABL for a geospatial REST API, to extend the API and testing this using Postman, using Ruby metaprogramming to write tests for different attributes in a REST API, implementing the storing and accessing of data hashes using Redis where a database table is not appropriate, adding dynamic statistics."
+        position = "Applications Programmer III"
+        dates = "Jan 2019 - Nov 2021"
+        company = "Cornell University - College of Engineering / CIS IT Service Group"
+        details = ""
 
-        [[params.jobs.list]]
-        position = "ICT Technician"
-        dates = "July 2014 - Oct 2017"
-        company = "Yateley School/Westfields Junior School, Hampshire"
-        details = "**ICT Assistant and Unity3d/Ruby-on-Rails Developer** Unity3d development of multi-platform school map App, development and deployment of Health & Safety Rails App, administering Moodle Virtual Learning Environment, school website content management using WordPress, installation and configuration of a GitLab server. Serving students and teachers, Spiceworks; issue ticket and tracking system, network cabling, re-configuring graphics cards, installing computers, Active Directory, Exchange, imaging machines, desktop roll-out, experience using file servers, installing and configuring VoIP software, writing how-to guides for various tasks, backup and restore (imaging) of laptops, Visual Basic programming; converting data from SIMS to Splicecom phone system, administration of examination software, logging calls with support tickets, managing Kerboodle accounts, managing disk space quotas, Papercut printer management, remote licensing of software, ABTutor remote control of machines, configuring Eclipse IDE for Python and Java development by the students, remote desktop control of servers (RDP)."
-
-        [[params.jobs.list]]
-        position = "Ruby-on-Rails Developer"
-        dates = "June 2015 - Oct 2015"
-        company = "Laverock von Schoultz, City of London"
-        details = "**Ruby-on-Rails Developer** fixing bugs in Ruby-on-Rails Web Apps for clients based in France and Israel, debugging code to more advanced skills. Familiarity with Ruby, JavaScript and HTML5/CSS3. Time management. Writing code in Ruby and JavaScript. Familiarity with Git and merging code conflicts. Familiarity with Jenkins. Fixing bugs in CSS3 code. Using JIRA."
-
-        [[params.jobs.list]]
-        position = "Retail assistant"
-        dates = "June 2014 - July 2014"
-        company = "Queen Elizabeth’s Foundation, Shepperton"
-        details = "Sorting out inventory. Customer service and deliveries."
-
-        [[params.jobs.list]]
-        position = "Retail assistant"
-        dates = ""
-        company = "O2, Staines"
-        details = "Stock auditing, counting and keeping track of stock, level of responsibility. Communication with customers, introducing and selling products, till work. Working in a team, communication with workers."
-
-        [[params.jobs.list]]
-        position = "Retail assistant"
-        dates = ""
-        company = "PC World, Staines"
-        details = "Knowledge of products and selling products."
 
 
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**A list of side projects** (in chronological order)"
@@ -228,7 +178,7 @@ disable404 = true
 
     # Skills section
     [params.skills]
-        enable = true
+        enable = false
         icon = "fa-rocket"
         title = "Skills & Proficiency"
 

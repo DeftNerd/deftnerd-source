@@ -128,7 +128,7 @@ disable404 = true
         enable = true
         icon = "fa-pencil"
         title = "Reference"
-        summary = "**Reference for Andrew Potter** <br><br>To whom it may concern: <br><br>This is a letter of recommendation for Adam Brown. Adam worked for Payment Approved for the inception of a new payment processing platform. Adam was instrumental in helping with a full discovery process through development sprints. During this time Adam grew as a professional and his creativity solved may questions. If any parties have any questions in regards Adams past work experience at Payment Approved, please contact me directly via email.<br><br>Thank you,<br>Jason Montoya, CEO"
+        summary = "**Reference for Adam Brown** <br><br>To whom it may concern: <br><br>This is a letter of recommendation for Adam Brown. Adam worked for Payment Approved for the inception of a new payment processing platform. Adam was instrumental in helping with a full discovery process through development sprints. During this time Adam grew as a professional and his creativity solved may questions. If any parties have any questions in regards Adams past work experience at Payment Approved, please contact me directly via email.<br><br>Thank you,<br>Jason Montoya, CEO"
 
 
     # Experiences section
@@ -221,4 +221,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = "&copy; 2022 Adam Brown"
+        copyright = "Adam Brown"

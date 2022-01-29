@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://deftnerd.com"
+baseurl = "https://deftnerd.com/"
 languageCode = "en-us"
 title = "Adam Brown CV"
 theme = "hugo-orbit-theme"
@@ -122,21 +122,21 @@ disable404 = true
         icon = "fa-user"
         title = "Career Profile"
         summary = """
-          A leader with a strong background in building remote teams, coaching, guiding performance, and monitoring development. Excels at independently designing and building amazing products and services. Strong believer in innovation and constant learning.
+            A leader with a strong background in building remote teams, coaching, guiding performance, and monitoring development. Excels at independently designing and building amazing products and services. Strong believer in innovation and constant learning.\
 
-          Can develop the full-stack, from programming, database design and maintenance, to server management and operations. Over 20 years experience in the IT and Cloud platforms/DevOps. Over 10 years experience in professional software development and engineering. 
+            Can develop the full-stack, from programming, database design and maintenance, to server management and operations. Over 20 years experience in the IT and Cloud platforms/DevOps. Over 10 years experience in professional software development and engineering. \
+            \
+            - Multi-Site IT management experience\
+            - DevOps (AWS, Docker, VPS platforms)\
+            - Large Scale Cloud Platform deployments and management\
+            - Database Management (MSSQL, PostgreSQL, MySQL, Redis)\
+            - Project Management\
+            - Vendor management & contract negotiations\
           
-          - Multi-Site IT management experience
-          - DevOps (AWS, Docker, VPS platforms)
-          - Large Scale Cloud Platform deployments and management
-          - Database Management (MSSQL, PostgreSQL, MySQL, Redis)
-          - Project Management
-          - Vendor management & contract negotiations
+            FinTech experience including Bitcoin (BTC), Ethereum (ETH), and other cryptocurrencies. Experience with Blockchain and Bitcoin 2.0 development.\
           
-          FinTech experience including Bitcoin (BTC), Ethereum (ETH), and other cryptocurrencies. Experience with Blockchain and Bitcoin 2.0 development.
-          
-          Specialties include: Strategic Planning & Decision Making, Executive Leadership & Supervision, Web DevOps, programming, Technical Infrastructure, Big Data, Customer Service Delivery, AWS platform, VoIP, Disaster Recovery, Emergency Response Plans, Policy Development, Project Management Systems, Development of Business Plans.
-          """
+            Specialties include: Strategic Planning & Decision Making, Executive Leadership & Supervision, Web DevOps, programming, Technical Infrastructure, Big Data, Customer Service Delivery, AWS platform, VoIP, Disaster Recovery, Emergency Response Plans, Policy Development, Project Management Systems, Development of Business Plans.\
+            """
 
     # Reference section
     [params.reference]
